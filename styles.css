@@ -170,6 +170,22 @@ section { padding: clamp(52px, 7vw, 92px) 0; }
 }
 
 /* ---------- Pricing ---------- */
+.pricing-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px; max-width: 880px; margin: 0 auto; align-items: stretch;
+}
+.pricing-card { position: relative; }
+.pricing-card.featured {
+  border-color: rgba(34, 211, 238, 0.55);
+  box-shadow: 0 24px 60px rgba(34, 211, 238, 0.14), var(--shadow);
+}
+.badge-pop {
+  position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+  background: linear-gradient(90deg, #22d3ee, #818cf8); color: #06091c;
+  font-size: 0.72rem; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 5px 12px; border-radius: 999px; white-space: nowrap;
+}
+@media (min-width: 820px) { .pricing-grid { align-items: center; } .pricing-card { margin: 0; } }
 .pricing-card {
   max-width: 560px; margin: 0 auto;
   background: linear-gradient(165deg, rgba(99, 102, 241, 0.24), rgba(9, 13, 34, 0.96) 58%);
