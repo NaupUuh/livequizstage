@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — QuizStage</title>
+<meta name="description" content="QuizStage support: email support@livequizstage.com for installation, licensing, overlay, and question pack help. Setup guides and response times.">
+<meta name="theme-color" content="#070a18">
+<link rel="canonical" href="https://livequizstage.com/support.html">
+<meta property="og:title" content="Support — QuizStage">
+<meta property="og:image" content="https://livequizstage.com/og.svg">
+<meta property="og:image:type" content="image/svg+xml">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="QuizStage">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236366f1'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3EQ%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">Q</span>QuizStage</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="index.html#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://livequizstage.com/#pricing">Get QuizStage — $39</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="page-head">
+      <h1>Support</h1>
+      <p>Email is the only support channel — no ticket portal, no chat queue, no account required.</p>
+    </div>
+
+    <article class="prose" style="max-width:900px">
+      <div class="support-grid">
+        <div class="support-card">
+          <h3>Email support</h3>
+          <p><a href="mailto:support@livequizstage.com">support@livequizstage.com</a><br>We read every message. Typical first reply is within two business days.</p>
+        </div>
+        <div class="support-card">
+          <h3>Licensing and activation</h3>
+          <p>Moving to a new laptop, restoring a key after a Windows reinstall, or replacing a lost key — email us the order email address and we will sort it out.</p>
+        </div>
+        <div class="support-card">
+          <h3>Refunds</h3>
+          <p>Everything inside 14 days of purchase is refundable, no questions asked. The exact steps are on the <a href="refund.html">Refund Policy</a> page.</p>
+        </div>
+        <div class="support-card">
+          <h3>Before a live show</h3>
+          <p>Run a full rehearsal on the venue network at least a day early. Test the join page on a real phone and confirm the overlay appears in OBS at 1920×1080.</p>
+        </div>
+      </div>
+
+      <h2>What to include in your email</h2>
+      <p>The faster we can reproduce a problem, the faster it gets fixed. Paste these details into your first message:</p>
+      <ul>
+        <li>Your Windows version (for example, Windows 11 23H2, 64-bit) and the QuizStage version from the About screen.</li>
+        <li>Your OBS Studio version, if the issue involves the overlay.</li>
+        <li>What you expected to happen and what happened instead.</li>
+        <li>The exact text of any error message, copied rather than photographed if possible.</li>
+        <li>How many players were joining, and whether the phones were on the same Wi-Fi as the host laptop.</li>
+        <li>Your order number, if the question is about licensing or a refund.</li>
+      </ul>
+
+      <h2>Common setup questions</h2>
+
+      <h3>Players cannot open the join page</h3>
+      <p>Confirm the phone is on the same Wi-Fi network as the host laptop — not on mobile data. Some venue routers enable "AP isolation" or "client isolation," which blocks devices from talking to each other even on the same network. Turn that setting off in the router, or use a travel router you control. Also check that Windows Firewall allowed QuizStage on private networks when it first started.</p>
+
+      <h3>The OBS overlay is blank or shows an error</h3>
+      <p>Add a Browser source in OBS Studio 28 or newer and set the URL to <code>http://127.0.0.1:8899/</code> with a 1920×1080 canvas. QuizStage must be running while OBS captures the source. If the overlay loaded once and then went blank, right-click the source and choose Refresh.</p>
+
+      <h3>My question pack will not import</h3>
+      <p>Packs are CSV files. Save them as comma-separated values with UTF-8 encoding, keep the header row intact, and make sure every row has the same number of columns. Questions with commas inside them must be quoted. Excel and Google Sheets both export this format correctly.</p>
+
+      <h3>Can I move my license to a new computer?</h3>
+      <p>Yes. One license covers one host machine at a time, and you can move it when you replace that machine. Email us from the address used at checkout and we will reset the activation so you can install on the new laptop.</p>
+
+      <h3>Can I run two shows on two laptops at once?</h3>
+      <p>Each simultaneous host machine needs its own license. If you run multiple rooms at one event, buy a license per host laptop. Players never need a license of their own.</p>
+
+      <h3>Does QuizStage need internet during a show?</h3>
+      <p>No. The host app, the player join page, and the overlay server all run locally. Internet is only used for downloading the installer and updates, and for whatever you choose to stream to.</p>
+
+      <h2>Not covered by support</h2>
+      <p>We help with QuizStage itself: installation, activation, features, overlay output, and defects. We cannot troubleshoot your venue's router, general Windows problems unrelated to the app, OBS scenes beyond the browser source URL, or write and edit your quiz questions. For OBS configuration, the OBS Studio documentation and community forums are the right place to start.</p>
+
+      <h2>Feature requests and bug reports</h2>
+      <p>Both are welcome at <a href="mailto:support@livequizstage.com">support@livequizstage.com</a>. Put "Feature request" or "Bug report" in the subject line so it gets filed correctly. We cannot promise a timeline for any request, but every report is read and logged.</p>
+
+      <h2>Still stuck?</h2>
+      <p>Check the <a href="index.html#faq">FAQ on the home page</a> first — it covers player limits, lives, OBS setup, licensing, and updates. If your question is not answered there, email <a href="mailto:support@livequizstage.com">support@livequizstage.com</a> and include the details listed above.</p>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark">Q</span>QuizStage</a>
+        <p>Windows software for running live trivia shows. Players join from their phones over local Wi-Fi, and the leaderboard streams straight into OBS.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#requirements">Requirements</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support &amp; legal</h4>
+        <ul>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="refund.html">Refund Policy</a></li>
+          <li><a href="mailto:support@livequizstage.com">support@livequizstage.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 QuizStage. All rights reserved.</span>
+      <span>Windows is a trademark of Microsoft Corporation. OBS Studio is a trademark of its respective owner.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

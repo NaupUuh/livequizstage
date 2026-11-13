@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="QuizStage — run a real trivia night from one laptop">
+  <title>QuizStage — Run a real trivia night from one laptop</title>
+  <desc>Dark navy and indigo social preview card for QuizStage, Windows trivia hosting software priced at 39 dollars one-time.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1236"/>
+      <stop offset="48%" stop-color="#080b20"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </linearGradient>
+    <radialGradient id="glowIndigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="120" cy="40" r="430" fill="url(#glowIndigo)"/>
+  <circle cx="1140" cy="600" r="400" fill="url(#glowViolet)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#rule)"/>
+
+  <!-- wordmark -->
+  <rect x="80" y="66" width="54" height="54" rx="15" fill="url(#accent)"/>
+  <text x="107" y="104" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#ffffff" text-anchor="middle">Q</text>
+  <text x="150" y="105" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">QuizStage</text>
+
+  <!-- headline -->
+  <text x="80" y="242" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" fill="#ffffff" letter-spacing="-2">Run a real trivia night</text>
+  <text x="80" y="312" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="61" font-weight="bold" fill="#c7cdff" letter-spacing="-2">from one laptop.</text>
+
+  <!-- subcopy -->
+  <text x="80" y="378" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="24" fill="#a4adcd">Players join from their phones over Wi-Fi.</text>
+  <text x="80" y="412" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="24" fill="#a4adcd">The leaderboard streams straight into OBS.</text>
+
+  <!-- price badge -->
+  <rect x="80" y="453" width="322" height="58" rx="29" fill="#6366f1" fill-opacity="0.2" stroke="#8b93ff" stroke-opacity="0.45" stroke-width="1.5"/>
+  <text x="107" y="490" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="23" font-weight="bold" fill="#ffffff">$39 one-time</text>
+  <text x="246" y="490" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="22" fill="#c3c9ea">· Windows 10/11</text>
+
+  <!-- mock leaderboard card -->
+  <rect x="806" y="140" width="318" height="352" rx="22" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+  <rect x="830" y="168" width="10" height="10" rx="5" fill="#22d3ee"/>
+  <text x="850" y="178" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#8d96b8" letter-spacing="2.4">LIVE LEADERBOARD</text>
+  <line x1="830" y1="200" x2="1100" y2="200" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <text x="830" y="240" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#8b93ff">1</text>
+  <text x="862" y="240" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#eef1ff">Nova</text>
+  <text x="1100" y="240" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#22d3ee" text-anchor="end">4,820</text>
+
+  <text x="830" y="288" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#8b93ff">2</text>
+  <text x="862" y="288" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#eef1ff">Ben</text>
+  <text x="1100" y="288" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#c7cdff" text-anchor="end">4,310</text>
+
+  <text x="830" y="336" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#8b93ff">3</text>
+  <text x="862" y="336" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#eef1ff">Priya</text>
+  <text x="1100" y="336" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#c7cdff" text-anchor="end">3,995</text>
+
+  <text x="830" y="384" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#8b93ff">4</text>
+  <text x="862" y="384" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#eef1ff">Marco</text>
+  <text x="1100" y="384" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#c7cdff" text-anchor="end">3,410</text>
+
+  <text x="830" y="432" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#8b93ff">5</text>
+  <text x="862" y="432" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" fill="#eef1ff">Lena</text>
+  <text x="1100" y="432" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#c7cdff" text-anchor="end">3,120</text>
+
+  <rect x="830" y="456" width="270" height="2" fill="#ffffff" fill-opacity="0.1"/>
+
+  <!-- footer line -->
+  <text x="80" y="580" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#7f89ad">livequizstage.com</text>
+  <text x="1120" y="580" font-family="Segoe UI, Inter, Arial, Helvetica, sans-serif" font-size="21" fill="#5f6890" text-anchor="end">Up to 1,000 players · Works offline</text>
+</svg>
